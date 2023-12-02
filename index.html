@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Galaxy</title>
+    <script src='https://kit.fontawesome.com/f77600b8df.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <nav>
+        <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Project</div>
+        <div class='nav-item' onclick="document.getElementById('team').scrollIntoView({behavior: 'smooth'});">Command</div>
+        <div class='nav-item' onclick="document.getElementById('merch').scrollIntoView({behavior: 'smooth'});">Merch</div>
+        <div class='nav-item' onclick="document.getElementById('submit').scrollIntoView({behavior: 'smooth'});">Application</div>
+        <div class='nav-item'><span class='cart-text'>Cart</span> <span class='cart-amount'>0</span></div>
+        <div class='nav-item switch-theme-button'>Switch the theme</div>
+    </nav>
+    <header>
+        <h1>Flying to <span class='mars mars1'>Mars</span></h1>
+        <div class='arrow-next'><i class='fa-solid fa-arrow-down'></i></div>
+    </header>
+    <main>
+        <section class='section1' id='about'>
+            <h1>About the project</h1>
+            <div class='about-wrapper'>
+                <p>In the era of active space exploration, flights to the moon became available to rich people from developed countries. Several hundred years have passed since then, during which there has been a new wave of technological development. Now flights to the moon <i>do not surprise anyone</i>.</p>
+                <p>If you want to experience new sensations, go beyond and bring something radically new into your life, you have every chance to become one of the first lucky ones to conquer the depths of space. For the first time in the history of mankind, we are making flights available to<span class='mars mars2'><b>Mars</b></span>.</p>
+                <p>Until now, only scientists and researchers have conquered the Red Planet. It took hundreds of years and more than one technical revolution to make <span class='mars mars3'>Mars</span> suitable for colonial life and private visits. The Galaxy project was the first to receive the unique rights to organize private flights to <span class='mars mars4'>Mars</span>.</p>
+                <p>Welcome to the <b>new world</b>.</p>
+            </div>
+        </section>
+        <section class='section2' id='team'>
+            <h1>Command</h1>
+            <div class='team-wrapper'>
+                <div class='team-item team1'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Jamal</h2>
+                        <p>Captain of the ship. We have dozens of flights and a close-knit team behind us.</p>
+                    </div>
+                </div>
+                <div class='team-item team2'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Albert</h2>
+                        <p>The first pilot. He is able to take off and land any ship.</p>
+                    </div>
+                </div>
+                <div class='team-item team3'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Daniel</h2>
+                        <p>Assistant pilot.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section4' id='merch'>
+            <h1>Merchandise</h1>
+            <div class='merch-wrapper'>
+                <div class='merch-item merch1'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[name]</h2>
+                        <p class='merch-item-descr'>[description]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>- <span class='merch-item-price'>[price]</span> $
+                        </div>
+                    </div>
+                </div>
+                <div class='merch-item merch2'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[name]</h2>
+                        <p class='merch-item-descr'>[description]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>- <span class='merch-item-price'>[price]</span>  $
+                        </div>
+                    </div>
+                </div>
+                <div class='merch-item merch3'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[name]</h2>
+                        <p class='merch-item-descr'>[description]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>- <span class='merch-item-price'>[price]</span>  $
+                        </div>
+                    </div>
+                </div>
+                <div class='merch-item merch4'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[name]</h2>
+                        <p class='merch-item-descr'>[description]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>- <span class='merch-item-price'>[price]</span>  $
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section3' id='submit'>
+            <div class='submit-wrapper'>
+                <h1>Application</h1>
+                <div class='submit-form'>
+                    <input class='submit-input' type='text' placeholder='name'>
+                    <p class='submit-input-label'>name</p>
+                    <input class='submit-input' type='email' placeholder='e-mail'>
+                    <p class='submit-input-label'>e-mail</p>
+                    <input class='submit-input' type='text' placeholder='phone number'>
+                    <p class='submit-input-label'>phone number</p>
+                    <div class='submit-input-row'>
+                        <div class='group'>
+                            <input class='submit-input row-item days-input' type='number' placeholder='days'>
+                            <p class='submit-input-label'>days on <span class='mars mars5'>Mars</span></p>
+                        </div>  
+                        <div class='group'>
+                            <select class='submit-select row-item' placeholder='cabin'>
+                                <option value='1000' selected='selected'>Basic</option>
+                                <option value='2000'>Premium</option>
+                                <option value='3000'>Suite</option>
+                            </select>
+                            <p class='submit-input-label'>cabin class</p>
+                        </div>  
+                    </div>
+                </div>
+                <div class='submit-btn-row'>
+                    <div class='submit-btn submit-btn-calc'>Price</div>
+                    <div class='submit-btn submit-btn-send'>Send</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
